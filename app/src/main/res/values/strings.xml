@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExamenNeftaliEsau</string>
+    <string name="welcome">Bienvenido a nuestra aplicacion</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="star">Iniciar Sesion</string>
+    <string name="register">Registrarse</string>
+    <string name="register_datos">Registre sus datos:</string>
+    <string name="name">Nombre de Usuario</string>
+    <string name="confirma_contrase_a">Confirma Contraseña</string>
+    <string name="tecle_una_contrase_a">Tecle una contraseña</string>
+    <string name="filename_value">Nombre del archivo</string>
+    <string name="filecontent_value">Contenido</string>
+    <string name="save_value">Guaradar</string>
+</resources>

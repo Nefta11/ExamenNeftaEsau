@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/blue"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/welcome"
+        android:textColorHint="@color/red"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="22sp"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/userperson"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/user"
+        android:id="@+id/user"
+        android:textColorHint="@color/red"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="14dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/password"
+        android:drawableStart="@drawable/passw"
+        android:textColorHint="@color/red"
+        android:drawablePadding="14dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/star"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:id="@+id/inicio"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="50dp"
+        android:id="@+id/register"
+        />
+</LinearLayout>

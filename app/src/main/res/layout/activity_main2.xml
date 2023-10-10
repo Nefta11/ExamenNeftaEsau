@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/blue"
+    android:padding="30dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_datos"
+        android:textColorHint="@color/red"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:id="@+id/name"
+        android:textColorHint="@color/red"
+        android:drawablePadding="14dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tecle_una_contrase_a"
+        android:id="@+id/second_name"
+        android:textColorHint="@color/red"
+        android:drawablePadding="14dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirma_contrase_a"
+        android:id="@+id/last_name"
+        android:textColorHint="@color/red"
+        android:drawablePadding="14dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:id="@+id/save"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/star"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:id="@+id/inicio"
+        />
+</LinearLayout>
